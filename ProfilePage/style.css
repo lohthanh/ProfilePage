@@ -90,7 +90,7 @@ button {
     border-top: none;
     padding-top: 80px;
     padding-left: 40px;
-    padding-bottom: 25px;
+    padding-bottom: 13px;
 }
 
 #jane {
@@ -214,10 +214,34 @@ h4 {
     color: white;
 }
 
+.section3 .bottom {
+    margin: 0;
+    padding: 15px 15px;
+    height: 100px;
+}
+
+.section3 img {
+    border-radius: 50%;
+    width: auto;
+    height: 35px;
+}
+
+.icon {
+    border: none;
+}
+
+#accept {
+    margin-left: 40px;
+}
+
+.bottom .row2 #accept {
+   margin-left: 47px;
+}
+
 .section4 {
     display: flex;
     width: 300px;
-    margin-top: -180px;
+    margin-top: -225px;
 }
 
 .section4 .border {
@@ -270,4 +294,8 @@ h4 {
     border-radius: 50%;
     width: auto;
     height: 35px;
+}
+
+img {
+    border: 1px solid black;
 }
